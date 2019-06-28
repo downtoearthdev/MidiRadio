@@ -1,6 +1,8 @@
 name: MidiRadio
 main: net.t7seven7t.midiradio.MidiRadio
-version: 1.5
+version: 2.0
+authors: [DownToEarthDev]
+api-version: 1.13
 description: Plays midi files.
 commands:
   play:

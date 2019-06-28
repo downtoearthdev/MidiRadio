@@ -13,6 +13,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.mineacademy.remain.Remain;
 
 /**
  * @author t7seven7t
@@ -22,7 +23,7 @@ public class MidiRadio extends JavaPlugin {
 	private MidiPlayer midiPlayer;
 		
 	public void onEnable() {
-		
+		Remain.setPlugin(this);
 		if (!getDataFolder().exists())
 			getDataFolder().mkdir();
 		
